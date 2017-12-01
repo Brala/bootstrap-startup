@@ -1,0 +1,49 @@
+/* style.css */
+
+html, 
+body{
+    height: 100%;
+}
+
+/* cover */
+img{
+    max-width: 100%;
+}
+#cover {
+    background: #222 url('../img/pic1.jpg') center center no-repeat;
+    background-size: cover;
+    color:cyan;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.carousel-item {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url('../img/pic2.jpg') center center no-repeat;
+    background-size: cover;
+}
+#about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+#footer-main {
+    background: #222;
+    color: white;
+    font-size:0.8rem;
+    padding: 2.5rem 0;
+}
